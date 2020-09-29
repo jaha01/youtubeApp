@@ -10,13 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var model = Model()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        var i = 0
+        model.getVideo()
     }
 
 
 }
 
+//https://www.youtube.com/watch?v=Ecxucvej1Dc&list=UU2D6eRvCeMtcF5OGHf1-trw&index=1
